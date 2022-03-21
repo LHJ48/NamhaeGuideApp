@@ -7,6 +7,7 @@ target 'NamhaeGuide_iOS' do
 pod 'Alamofire', '~> 5.5'
 pod 'SwiftyJSON', '~> 4.0'
 pod 'Kingfisher', '~> 7.0'
+pod 'KakaoSDK'
   # Pods for NamhaeGuide_iOS
 
 end
