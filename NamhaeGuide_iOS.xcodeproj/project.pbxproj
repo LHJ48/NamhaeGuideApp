@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51163C3E27E85C65008D24A7 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51163C3C27E85C65008D24A7 /* MapVC.swift */; };
+		51163C3F27E85C65008D24A7 /* MapVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51163C3D27E85C65008D24A7 /* MapVC.xib */; };
 		51AEFBCA27DED3FC00423939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AEFBC927DED3FC00423939 /* AppDelegate.swift */; };
 		51AEFBCC27DED3FC00423939 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AEFBCB27DED3FC00423939 /* SceneDelegate.swift */; };
 		51AEFBCE27DED3FC00423939 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AEFBCD27DED3FC00423939 /* ViewController.swift */; };
@@ -14,12 +16,12 @@
 		51AEFBD327DED3FD00423939 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51AEFBD227DED3FD00423939 /* Assets.xcassets */; };
 		51AEFBD627DED3FD00423939 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51AEFBD427DED3FD00423939 /* LaunchScreen.storyboard */; };
 		51AEFBDF27DED62600423939 /* splash_img.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51AEFBDE27DED62600423939 /* splash_img.jpg */; };
-		51F4AA5F27E07E2700C66811 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F4AA5D27E07E2700C66811 /* MapVC.swift */; };
-		51F4AA6027E07E2700C66811 /* MapVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51F4AA5E27E07E2700C66811 /* MapVC.xib */; };
 		5C9617DFE95C027D5FA45598 /* Pods_NamhaeGuide_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6675EBD57837DC2AE02FC60F /* Pods_NamhaeGuide_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		51163C3C27E85C65008D24A7 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		51163C3D27E85C65008D24A7 /* MapVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapVC.xib; sourceTree = "<group>"; };
 		51AEFBC627DED3FC00423939 /* NamhaeGuide_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NamhaeGuide_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51AEFBC927DED3FC00423939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51AEFBCB27DED3FC00423939 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,8 +31,6 @@
 		51AEFBD527DED3FD00423939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51AEFBD727DED3FD00423939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51AEFBDE27DED62600423939 /* splash_img.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = splash_img.jpg; sourceTree = "<group>"; };
-		51F4AA5D27E07E2700C66811 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
-		51F4AA5E27E07E2700C66811 /* MapVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapVC.xib; sourceTree = "<group>"; };
 		6675EBD57837DC2AE02FC60F /* Pods_NamhaeGuide_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NamhaeGuide_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		701ED99C46B80B2457EADCE6 /* Pods-NamhaeGuide_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NamhaeGuide_iOS.release.xcconfig"; path = "Target Support Files/Pods-NamhaeGuide_iOS/Pods-NamhaeGuide_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		76D7383D080C25191DC29EB4 /* Pods-NamhaeGuide_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NamhaeGuide_iOS.debug.xcconfig"; path = "Target Support Files/Pods-NamhaeGuide_iOS/Pods-NamhaeGuide_iOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -83,11 +83,11 @@
 				51AEFBCB27DED3FC00423939 /* SceneDelegate.swift */,
 				51AEFBCD27DED3FC00423939 /* ViewController.swift */,
 				51AEFBCF27DED3FC00423939 /* Main.storyboard */,
-				51F4AA5D27E07E2700C66811 /* MapVC.swift */,
-				51F4AA5E27E07E2700C66811 /* MapVC.xib */,
 				51AEFBD227DED3FD00423939 /* Assets.xcassets */,
 				51AEFBD427DED3FD00423939 /* LaunchScreen.storyboard */,
 				51AEFBD727DED3FD00423939 /* Info.plist */,
+				51163C3C27E85C65008D24A7 /* MapVC.swift */,
+				51163C3D27E85C65008D24A7 /* MapVC.xib */,
 			);
 			path = NamhaeGuide_iOS;
 			sourceTree = "<group>";
@@ -171,7 +171,7 @@
 				51AEFBDF27DED62600423939 /* splash_img.jpg in Resources */,
 				51AEFBD627DED3FD00423939 /* LaunchScreen.storyboard in Resources */,
 				51AEFBD327DED3FD00423939 /* Assets.xcassets in Resources */,
-				51F4AA6027E07E2700C66811 /* MapVC.xib in Resources */,
+				51163C3F27E85C65008D24A7 /* MapVC.xib in Resources */,
 				51AEFBD127DED3FC00423939 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,8 +225,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51F4AA5F27E07E2700C66811 /* MapVC.swift in Sources */,
 				51AEFBCE27DED3FC00423939 /* ViewController.swift in Sources */,
+				51163C3E27E85C65008D24A7 /* MapVC.swift in Sources */,
 				51AEFBCA27DED3FC00423939 /* AppDelegate.swift in Sources */,
 				51AEFBCC27DED3FC00423939 /* SceneDelegate.swift in Sources */,
 			);
