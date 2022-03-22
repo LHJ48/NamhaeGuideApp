@@ -29,7 +29,7 @@ class MapVC: UIViewController {
         mapScroll.delegate = self
         mapScroll.zoomScale = 1.0
         mapScroll.minimumZoomScale = 1.0
-        mapScroll.maximumZoomScale = 3.0
+        mapScroll.maximumZoomScale = 2.0
         
         let pinch = UIPinchGestureRecognizer(target: self, action: #selector(MapVC.doPinch(_:)))
         self.view.addGestureRecognizer(pinch)
