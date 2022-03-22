@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		510D93FC27E983610023290F /* PublicOfficesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510D93FA27E983610023290F /* PublicOfficesVC.swift */; };
+		510D93FF27E983DE0023290F /* PublcOfficeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510D93FE27E983DE0023290F /* PublcOfficeModel.swift */; };
+		510D940327E987DE0023290F /* PublicOfficesVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 510D940227E987DE0023290F /* PublicOfficesVC.storyboard */; };
 		51163C3E27E85C65008D24A7 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51163C3C27E85C65008D24A7 /* MapVC.swift */; };
 		51163C3F27E85C65008D24A7 /* MapVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51163C3D27E85C65008D24A7 /* MapVC.xib */; };
 		51AEFBCA27DED3FC00423939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AEFBC927DED3FC00423939 /* AppDelegate.swift */; };
@@ -20,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		510D93FA27E983610023290F /* PublicOfficesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicOfficesVC.swift; sourceTree = "<group>"; };
+		510D93FE27E983DE0023290F /* PublcOfficeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublcOfficeModel.swift; sourceTree = "<group>"; };
+		510D940227E987DE0023290F /* PublicOfficesVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PublicOfficesVC.storyboard; sourceTree = "<group>"; };
 		51163C3C27E85C65008D24A7 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		51163C3D27E85C65008D24A7 /* MapVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapVC.xib; sourceTree = "<group>"; };
 		51AEFBC627DED3FC00423939 /* NamhaeGuide_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NamhaeGuide_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +94,9 @@
 				51AEFBD727DED3FD00423939 /* Info.plist */,
 				51163C3C27E85C65008D24A7 /* MapVC.swift */,
 				51163C3D27E85C65008D24A7 /* MapVC.xib */,
+				510D93FA27E983610023290F /* PublicOfficesVC.swift */,
+				510D940227E987DE0023290F /* PublicOfficesVC.storyboard */,
+				510D93FE27E983DE0023290F /* PublcOfficeModel.swift */,
 			);
 			path = NamhaeGuide_iOS;
 			sourceTree = "<group>";
@@ -170,6 +179,7 @@
 			files = (
 				51AEFBDF27DED62600423939 /* splash_img.jpg in Resources */,
 				51AEFBD627DED3FD00423939 /* LaunchScreen.storyboard in Resources */,
+				510D940327E987DE0023290F /* PublicOfficesVC.storyboard in Resources */,
 				51AEFBD327DED3FD00423939 /* Assets.xcassets in Resources */,
 				51163C3F27E85C65008D24A7 /* MapVC.xib in Resources */,
 				51AEFBD127DED3FC00423939 /* Main.storyboard in Resources */,
@@ -227,8 +237,10 @@
 			files = (
 				51AEFBCE27DED3FC00423939 /* ViewController.swift in Sources */,
 				51163C3E27E85C65008D24A7 /* MapVC.swift in Sources */,
+				510D93FF27E983DE0023290F /* PublcOfficeModel.swift in Sources */,
 				51AEFBCA27DED3FC00423939 /* AppDelegate.swift in Sources */,
 				51AEFBCC27DED3FC00423939 /* SceneDelegate.swift in Sources */,
+				510D93FC27E983610023290F /* PublicOfficesVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
