@@ -25,6 +25,15 @@
                                     <action selector="mapMove:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fym-MW-Ekr"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iXg-pB-d3X">
+                                <rect key="frame" x="159" y="179" width="97" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="행정복지센터"/>
+                                <connections>
+                                    <action selector="publicOfficeMove:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hwR-Gy-8e6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>

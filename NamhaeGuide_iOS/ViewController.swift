@@ -19,5 +19,9 @@ class ViewController: UIViewController {
         self.navigationController?.pushViewController(mapVC, animated: true)
     }
     
+    @IBAction func publicOfficeMove(_ sender: Any) {
+        let publicOfficeVC = UIStoryboard(name: "PublicOfficesVC", bundle: Bundle.main).instantiateViewController(withIdentifier: "PublicOfficesVC") as! PublicOfficesVC
+        self.navigationController?.pushViewController(publicOfficeVC, animated: true)
+    }
 }
 
