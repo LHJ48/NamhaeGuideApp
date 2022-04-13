@@ -10,6 +10,7 @@
 		510D93FF27E983DE0023290F /* PublcOfficeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510D93FE27E983DE0023290F /* PublcOfficeModel.swift */; };
 		51163C3E27E85C65008D24A7 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51163C3C27E85C65008D24A7 /* MapVC.swift */; };
 		51163C3F27E85C65008D24A7 /* MapVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51163C3D27E85C65008D24A7 /* MapVC.xib */; };
+		51920FE92806C7E700126D5F /* PublicOfficesDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51920FE82806C7E700126D5F /* PublicOfficesDetailVC.swift */; };
 		519C5E8227EB11A900E2CDC4 /* PublicOfficesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519C5E8027EB11A900E2CDC4 /* PublicOfficesCell.swift */; };
 		519C5E8327EB11A900E2CDC4 /* PublicOfficesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 519C5E8127EB11A900E2CDC4 /* PublicOfficesCell.xib */; };
 		519C5E8527EB1A0300E2CDC4 /* PublicOfficesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519C5E8427EB1A0300E2CDC4 /* PublicOfficesVC.swift */; };
@@ -28,6 +29,7 @@
 		510D93FE27E983DE0023290F /* PublcOfficeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublcOfficeModel.swift; sourceTree = "<group>"; };
 		51163C3C27E85C65008D24A7 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		51163C3D27E85C65008D24A7 /* MapVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapVC.xib; sourceTree = "<group>"; };
+		51920FE82806C7E700126D5F /* PublicOfficesDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicOfficesDetailVC.swift; sourceTree = "<group>"; };
 		519C5E8027EB11A900E2CDC4 /* PublicOfficesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicOfficesCell.swift; sourceTree = "<group>"; };
 		519C5E8127EB11A900E2CDC4 /* PublicOfficesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PublicOfficesCell.xib; sourceTree = "<group>"; };
 		519C5E8427EB1A0300E2CDC4 /* PublicOfficesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicOfficesVC.swift; sourceTree = "<group>"; };
@@ -67,6 +69,19 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		51920FE72806BF6600126D5F /* PublicOffice */ = {
+			isa = PBXGroup;
+			children = (
+				519C5E8427EB1A0300E2CDC4 /* PublicOfficesVC.swift */,
+				519C5E8627EB1A3600E2CDC4 /* PublicOfficesVC.storyboard */,
+				519C5E8027EB11A900E2CDC4 /* PublicOfficesCell.swift */,
+				519C5E8127EB11A900E2CDC4 /* PublicOfficesCell.xib */,
+				510D93FE27E983DE0023290F /* PublcOfficeModel.swift */,
+				51920FE82806C7E700126D5F /* PublicOfficesDetailVC.swift */,
+			);
+			path = PublicOffice;
+			sourceTree = "<group>";
+		};
 		51AEFBBD27DED3FC00423939 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +104,7 @@
 		51AEFBC827DED3FC00423939 /* NamhaeGuide_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				51920FE72806BF6600126D5F /* PublicOffice */,
 				51AEFBC927DED3FC00423939 /* AppDelegate.swift */,
 				51AEFBCB27DED3FC00423939 /* SceneDelegate.swift */,
 				51AEFBCD27DED3FC00423939 /* ViewController.swift */,
@@ -98,11 +114,6 @@
 				51AEFBD727DED3FD00423939 /* Info.plist */,
 				51163C3C27E85C65008D24A7 /* MapVC.swift */,
 				51163C3D27E85C65008D24A7 /* MapVC.xib */,
-				519C5E8427EB1A0300E2CDC4 /* PublicOfficesVC.swift */,
-				519C5E8627EB1A3600E2CDC4 /* PublicOfficesVC.storyboard */,
-				519C5E8027EB11A900E2CDC4 /* PublicOfficesCell.swift */,
-				519C5E8127EB11A900E2CDC4 /* PublicOfficesCell.xib */,
-				510D93FE27E983DE0023290F /* PublcOfficeModel.swift */,
 			);
 			path = NamhaeGuide_iOS;
 			sourceTree = "<group>";
@@ -242,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51920FE92806C7E700126D5F /* PublicOfficesDetailVC.swift in Sources */,
 				519C5E8227EB11A900E2CDC4 /* PublicOfficesCell.swift in Sources */,
 				51AEFBCE27DED3FC00423939 /* ViewController.swift in Sources */,
 				51163C3E27E85C65008D24A7 /* MapVC.swift in Sources */,
