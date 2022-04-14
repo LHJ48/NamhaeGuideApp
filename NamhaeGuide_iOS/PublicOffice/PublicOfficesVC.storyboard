@@ -40,16 +40,17 @@
             </objects>
             <point key="canvasLocation" x="90" y="97"/>
         </scene>
-        <!--View Controller-->
+        <!--Public Offices DetailVC-->
         <scene sceneID="UXb-Jn-alE">
             <objects>
-                <viewController id="qvr-DQ-vPo" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PublicOfficesDetailVC" id="qvr-DQ-vPo" customClass="PublicOfficesDetailVC" customModule="NamhaeGuide_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="b5R-mo-Ld3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="Xbv-Xu-3q9"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="a59-wi-zYY"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="opA-NQ-vT1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

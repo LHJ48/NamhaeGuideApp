@@ -9,17 +9,17 @@
 import UIKit
 
 struct PublicOfficeModel: Decodable {
-    let data: [officeData]
+    let data: [OfficeData]
 }
 
-struct officeData: Decodable{
-    let officeName1: String
-    let officeTel1: String
-    let officeAddress1: String
+struct OfficeData: Decodable{
+    let officeModelName: String
+    let officeModelTel: String
+    let officeModelAddress: String
     
     enum CodingKeys: String, CodingKey {
-        case officeName1 = "기관명"
-        case officeTel1 = "연락처"
-        case officeAddress1 = "주소"
+        case officeModelName = "기관명"
+        case officeModelTel = "연락처"
+        case officeModelAddress = "주소"
     }
 }

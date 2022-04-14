@@ -33,12 +33,14 @@ PODS:
   - KakaoSDKUser (2.9.0):
     - KakaoSDKAuth (= 2.9.0)
   - Kingfisher (7.2.0)
+  - SwiftSoup (2.4.2)
   - SwiftyJSON (4.3.0)
 
 DEPENDENCIES:
   - Alamofire (~> 5.5)
   - KakaoSDK
   - Kingfisher (~> 7.0)
+  - SwiftSoup
   - SwiftyJSON (~> 4.0)
 
 SPEC REPOS:
@@ -54,6 +56,7 @@ SPEC REPOS:
     - KakaoSDKTemplate
     - KakaoSDKUser
     - Kingfisher
+    - SwiftSoup
     - SwiftyJSON
 
 SPEC CHECKSUMS:
@@ -68,8 +71,9 @@ SPEC CHECKSUMS:
   KakaoSDKTemplate: eaf03ad5e44d374cbfff85588552a5627cd0519c
   KakaoSDKUser: 37e92bfc1d36b339420952080a8d31c217a38a63
   Kingfisher: 3ac0b75b155cabc0e544877d1a4deea29feece92
+  SwiftSoup: 7589ceac3b38cef742a96981cfe2b14ba55ce1e3
   SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
 
-PODFILE CHECKSUM: 1cf8457e8e8be0e066d59b567ea172162b95c8cd
+PODFILE CHECKSUM: 803401af4899c1c26587ef564c24c130a8f354a8
 
 COCOAPODS: 1.11.2

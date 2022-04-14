@@ -64,13 +64,22 @@ extension PublicOfficesVC: UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         tableView.register(UINib(nibName: "PublicOfficesCell", bundle: nil), forCellReuseIdentifier: "PublicOfficesCell")
         let cell = tableView.dequeueReusableCell(withIdentifier: "PublicOfficesCell") as! PublicOfficesCell
-        cell.officeName.text = self.officeModel?.data[indexPath.row].officeName1
-        cell.officeTelnumber.text = self.officeModel?.data[indexPath.row].officeTel1
-        cell.officeAddress.text = self.officeModel?.data[indexPath.row].officeAddress1
+        cell.officeName.text = self.officeModel?.data[indexPath.row].officeModelName
+        cell.officeTelnumber.text = self.officeModel?.data[indexPath.row].officeModelTel
+        cell.officeAddress.text = self.officeModel?.data[indexPath.row].officeModelAddress
         return cell
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 135
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let detailVC = UIStoryboard(name: "PublicOfficesVC", bundle: nil).instantiateViewController(withIdentifier: "PublicOfficesDetailVC") as! PublicOfficesDetailVC
+        
+        tableView.deselectRow(at: indexPath, animated: true)
+        
+        detailVC.officeData = self.officeModel?.data[indexPath.row]
+        self.navigationController?.pushViewController(detailVC, animated: true)
     }
 }
