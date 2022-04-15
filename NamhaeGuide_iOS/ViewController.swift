@@ -10,47 +10,6 @@ import SwiftSoup
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var coronaNow: UIView!{
-        didSet{
-            coronaNow.layer.cornerRadius = 30
-            //#6386a9
-            coronaNow.layer.backgroundColor = UIColor(hexString: "#6386a9").cgColor
-        }
-    }
-    
-    @IBOutlet weak var subTotalView: UIView!{
-        didSet{
-            subTotalView.layer.cornerRadius = 10
-        }
-    }
-    @IBOutlet weak var subTotalNameLabel: UILabel!{
-        didSet{
-            subTotalNameLabel.layer.cornerRadius = 30
-            subTotalNameLabel.layer.backgroundColor = UIColor(hexString: "#55a75f").cgColor
-        }
-    }
-    @IBOutlet weak var confirmedCaseView: UIView!{
-        didSet{
-            confirmedCaseView.layer.cornerRadius = 10
-        }
-    }
-    @IBOutlet weak var confirmedCaseNameLabel: UILabel!{
-        didSet{
-            confirmedCaseNameLabel.layer.cornerRadius = 30
-            confirmedCaseNameLabel.layer.backgroundColor = UIColor(hexString: "#4273de").cgColor
-        }
-    }
-    @IBOutlet weak var underInspectionView: UIView!{
-        didSet{
-            underInspectionView.layer.cornerRadius = 10
-        }
-    }
-    @IBOutlet weak var underInspectionNameLabel: UILabel!{
-        didSet{
-            underInspectionNameLabel.layer.cornerRadius = 30
-            underInspectionNameLabel.layer.backgroundColor = UIColor(hexString: "#e46969").cgColor
-        }
-    }
     override func viewDidLoad() {
         super.viewDidLoad()
         
