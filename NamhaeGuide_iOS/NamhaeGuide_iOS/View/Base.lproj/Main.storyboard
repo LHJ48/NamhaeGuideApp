@@ -17,43 +17,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="756"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="남해 관광 지도" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TFM-31-c1S">
-                                <rect key="frame" x="15" y="20" width="360" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="남해 관광 지도" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TFM-31-c1S">
+                                <rect key="frame" x="124.66666666666669" y="20" width="141" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Lb-eY-EPr">
-                                <rect key="frame" x="15" y="70" width="360" height="360"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Lb-eY-EPr">
+                                <rect key="frame" x="15" y="70" width="360" height="350"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qCc-WF-GAt">
-                                        <rect key="frame" x="8" y="8" width="344" height="335"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qCc-WF-GAt">
+                                        <rect key="frame" x="0.0" y="0.0" width="360" height="350"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="qCc-WF-GAt" firstAttribute="top" secondItem="HHX-oM-oRs" secondAttribute="top" constant="8" id="4YT-g7-fNS"/>
-                                    <constraint firstItem="HHX-oM-oRs" firstAttribute="bottom" secondItem="qCc-WF-GAt" secondAttribute="bottom" constant="17" id="4eq-TI-Cyz"/>
-                                    <constraint firstItem="qCc-WF-GAt" firstAttribute="height" secondItem="HHX-oM-oRs" secondAttribute="height" multiplier="0.930556" id="NXX-8b-TqT"/>
-                                    <constraint firstItem="qCc-WF-GAt" firstAttribute="leading" secondItem="0Lb-eY-EPr" secondAttribute="leadingMargin" id="POL-CC-wXs"/>
-                                    <constraint firstAttribute="height" constant="360" id="RfV-8f-Jsz"/>
-                                    <constraint firstItem="qCc-WF-GAt" firstAttribute="centerX" secondItem="0Lb-eY-EPr" secondAttribute="centerX" id="cVr-q9-ook"/>
-                                    <constraint firstItem="qCc-WF-GAt" firstAttribute="trailing" secondItem="0Lb-eY-EPr" secondAttribute="trailingMargin" id="ch6-MB-Y3X"/>
-                                    <constraint firstItem="qCc-WF-GAt" firstAttribute="bottom" secondItem="0Lb-eY-EPr" secondAttribute="bottomMargin" id="xqM-GS-aHj"/>
-                                </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="8ke-e4-Cbg"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="HHX-oM-oRs"/>
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bPu-qV-lKf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="0Lb-eY-EPr" firstAttribute="centerX" secondItem="AWF-mA-zex" secondAttribute="centerX" id="1dI-bx-uLl"/>
-                            <constraint firstItem="TFM-31-c1S" firstAttribute="top" secondItem="bPu-qV-lKf" secondAttribute="top" constant="20" id="RAG-YA-Kgh"/>
-                            <constraint firstItem="bPu-qV-lKf" firstAttribute="trailing" secondItem="TFM-31-c1S" secondAttribute="trailing" constant="15" id="Vx4-vX-6hd"/>
-                            <constraint firstItem="0Lb-eY-EPr" firstAttribute="top" secondItem="TFM-31-c1S" secondAttribute="bottom" constant="20" id="efg-6j-x8S"/>
-                            <constraint firstItem="0Lb-eY-EPr" firstAttribute="trailing" secondItem="TFM-31-c1S" secondAttribute="trailing" id="isl-Zp-eAc"/>
-                            <constraint firstItem="TFM-31-c1S" firstAttribute="leading" secondItem="bPu-qV-lKf" secondAttribute="leading" constant="15" id="z1d-yY-WPC"/>
-                        </constraints>
                     </view>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <connections>
@@ -92,7 +77,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_img.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="RCg-vg-VjE">
-                                <rect key="frame" x="0.0" y="88" width="390" height="722"/>
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Namhae Guide" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GrX-G8-6k0">
                                 <rect key="frame" x="30" y="238" width="330" height="51"/>
@@ -105,12 +90,12 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="wzp-89-hmu" firstAttribute="trailing" secondItem="GrX-G8-6k0" secondAttribute="trailing" constant="30" id="KaE-sg-ZmF"/>
-                            <constraint firstItem="RCg-vg-VjE" firstAttribute="trailing" secondItem="wzp-89-hmu" secondAttribute="trailing" id="MpE-Od-zfX"/>
-                            <constraint firstItem="RCg-vg-VjE" firstAttribute="top" secondItem="wzp-89-hmu" secondAttribute="top" id="Mq8-Xo-QCs"/>
+                            <constraint firstItem="RCg-vg-VjE" firstAttribute="trailing" secondItem="qDU-19-5cb" secondAttribute="trailing" id="MpE-Od-zfX"/>
+                            <constraint firstItem="RCg-vg-VjE" firstAttribute="top" secondItem="qDU-19-5cb" secondAttribute="top" id="Mq8-Xo-QCs"/>
                             <constraint firstItem="GrX-G8-6k0" firstAttribute="top" secondItem="wzp-89-hmu" secondAttribute="top" constant="150" id="fq9-12-5nY"/>
                             <constraint firstItem="GrX-G8-6k0" firstAttribute="leading" secondItem="wzp-89-hmu" secondAttribute="leading" constant="30" id="hmW-3K-Kzi"/>
-                            <constraint firstItem="RCg-vg-VjE" firstAttribute="leading" secondItem="wzp-89-hmu" secondAttribute="leading" id="kHg-Dc-clY"/>
-                            <constraint firstItem="RCg-vg-VjE" firstAttribute="bottom" secondItem="wzp-89-hmu" secondAttribute="bottom" id="lDd-GN-QfD"/>
+                            <constraint firstItem="RCg-vg-VjE" firstAttribute="leading" secondItem="qDU-19-5cb" secondAttribute="leading" id="kHg-Dc-clY"/>
+                            <constraint firstItem="RCg-vg-VjE" firstAttribute="bottom" secondItem="qDU-19-5cb" secondAttribute="bottom" id="lDd-GN-QfD"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="bro-89-6wb"/>

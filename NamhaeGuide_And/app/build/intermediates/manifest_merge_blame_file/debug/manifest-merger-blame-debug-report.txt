@@ -1,0 +1,73 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.juncompany.namhaeguide_and"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->/Users/leehojun/NamhaeGuideApp/NamhaeGuide_And/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/leehojun/NamhaeGuideApp/NamhaeGuide_And/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/leehojun/NamhaeGuideApp/NamhaeGuide_And/app/src/main/AndroidManifest.xml:4:5-20:19
+12        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+12-->[androidx.core:core:1.7.0] /Users/leehojun/.gradle/caches/transforms-3/e0271567396797fabcc0bb42c58e8e00/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+13        android:debuggable="true"
+14        android:extractNativeLibs="false"
+15        android:icon="@mipmap/ic_launcher"
+15-->/Users/leehojun/NamhaeGuideApp/NamhaeGuide_And/app/src/main/AndroidManifest.xml:5:9-43
+16        android:testOnly="true" >
+17        <activity
+17-->/Users/leehojun/NamhaeGuideApp/NamhaeGuide_And/app/src/main/AndroidManifest.xml:6:9-15:20
+18            android:name="com.juncompany.namhaeguide_and.SplashActivity"
+18-->/Users/leehojun/NamhaeGuideApp/NamhaeGuide_And/app/src/main/AndroidManifest.xml:7:13-43
+19            android:exported="true"
+19-->/Users/leehojun/NamhaeGuideApp/NamhaeGuide_And/app/src/main/AndroidManifest.xml:9:13-36
+20            android:theme="@style/Theme.NamhaeGuide_And" >
+20-->/Users/leehojun/NamhaeGuideApp/NamhaeGuide_And/app/src/main/AndroidManifest.xml:8:13-57
+21            <intent-filter>
+21-->/Users/leehojun/NamhaeGuideApp/NamhaeGuide_And/app/src/main/AndroidManifest.xml:10:13-14:29
+22                <action android:name="android.intent.action.MAIN" />
+22-->/Users/leehojun/NamhaeGuideApp/NamhaeGuide_And/app/src/main/AndroidManifest.xml:11:17-69
+22-->/Users/leehojun/NamhaeGuideApp/NamhaeGuide_And/app/src/main/AndroidManifest.xml:11:25-66
+23
+24                <category android:name="android.intent.category.LAUNCHER" />
+24-->/Users/leehojun/NamhaeGuideApp/NamhaeGuide_And/app/src/main/AndroidManifest.xml:13:17-77
+24-->/Users/leehojun/NamhaeGuideApp/NamhaeGuide_And/app/src/main/AndroidManifest.xml:13:27-74
+25            </intent-filter>
+26        </activity>
+27        <activity
+27-->/Users/leehojun/NamhaeGuideApp/NamhaeGuide_And/app/src/main/AndroidManifest.xml:16:9-19:39
+28            android:name="com.juncompany.namhaeguide_and.MainActivity"
+28-->/Users/leehojun/NamhaeGuideApp/NamhaeGuide_And/app/src/main/AndroidManifest.xml:17:13-41
+29            android:exported="true"
+29-->/Users/leehojun/NamhaeGuideApp/NamhaeGuide_And/app/src/main/AndroidManifest.xml:19:13-36
+30            android:theme="@style/Theme.AppCompat" />
+30-->/Users/leehojun/NamhaeGuideApp/NamhaeGuide_And/app/src/main/AndroidManifest.xml:18:13-51
+31
+32        <provider
+32-->[androidx.emoji2:emoji2:1.0.0] /Users/leehojun/.gradle/caches/transforms-3/2185a2ab2ec938cd13b5c0aaa7959983/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+33            android:name="androidx.startup.InitializationProvider"
+33-->[androidx.emoji2:emoji2:1.0.0] /Users/leehojun/.gradle/caches/transforms-3/2185a2ab2ec938cd13b5c0aaa7959983/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+34            android:authorities="com.juncompany.namhaeguide_and.androidx-startup"
+34-->[androidx.emoji2:emoji2:1.0.0] /Users/leehojun/.gradle/caches/transforms-3/2185a2ab2ec938cd13b5c0aaa7959983/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+35            android:exported="false" >
+35-->[androidx.emoji2:emoji2:1.0.0] /Users/leehojun/.gradle/caches/transforms-3/2185a2ab2ec938cd13b5c0aaa7959983/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+36            <meta-data
+36-->[androidx.emoji2:emoji2:1.0.0] /Users/leehojun/.gradle/caches/transforms-3/2185a2ab2ec938cd13b5c0aaa7959983/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+37                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+37-->[androidx.emoji2:emoji2:1.0.0] /Users/leehojun/.gradle/caches/transforms-3/2185a2ab2ec938cd13b5c0aaa7959983/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+38                android:value="androidx.startup" />
+38-->[androidx.emoji2:emoji2:1.0.0] /Users/leehojun/.gradle/caches/transforms-3/2185a2ab2ec938cd13b5c0aaa7959983/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+39            <meta-data
+39-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/leehojun/.gradle/caches/transforms-3/da8ae0e4c991f97c658799b7957b5f4b/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+40                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+40-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/leehojun/.gradle/caches/transforms-3/da8ae0e4c991f97c658799b7957b5f4b/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+41                android:value="androidx.startup" />
+41-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/leehojun/.gradle/caches/transforms-3/da8ae0e4c991f97c658799b7957b5f4b/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+42        </provider>
+43    </application>
+44
+45</manifest>

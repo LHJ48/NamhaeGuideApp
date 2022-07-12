@@ -18,25 +18,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_img.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="F02-Se-lau">
-                                <rect key="frame" x="0.0" y="44" width="428" height="848"/>
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Namhae Guide" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fuN-9g-JRQ">
-                                <rect key="frame" x="30" y="194" width="368" height="51"/>
-                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="40"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="30" y="194" width="368" height="46"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="40"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="F02-Se-lau" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="B18-Cg-5bH"/>
+                            <constraint firstItem="F02-Se-lau" firstAttribute="bottom" secondItem="Ze5-6b-2t3" secondAttribute="bottom" id="B18-Cg-5bH"/>
                             <constraint firstItem="fuN-9g-JRQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="CgF-UD-8gf"/>
-                            <constraint firstItem="F02-Se-lau" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="YbV-YX-rQh"/>
-                            <constraint firstItem="F02-Se-lau" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="eGy-w9-BhV"/>
+                            <constraint firstItem="F02-Se-lau" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="YbV-YX-rQh"/>
+                            <constraint firstItem="F02-Se-lau" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailing" id="eGy-w9-BhV"/>
                             <constraint firstItem="fuN-9g-JRQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="mGe-2c-Br5"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fuN-9g-JRQ" secondAttribute="trailing" constant="30" id="pbU-km-hht"/>
-                            <constraint firstItem="F02-Se-lau" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="zLn-R0-vMy"/>
+                            <constraint firstItem="F02-Se-lau" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="zLn-R0-vMy"/>
                         </constraints>
                     </view>
                 </viewController>

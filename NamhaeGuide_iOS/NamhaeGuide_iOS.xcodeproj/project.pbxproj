@@ -19,9 +19,9 @@
 		51AEFBD127DED3FC00423939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51AEFBCF27DED3FC00423939 /* Main.storyboard */; };
 		51AEFBD327DED3FD00423939 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51AEFBD227DED3FD00423939 /* Assets.xcassets */; };
 		51AEFBD627DED3FD00423939 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51AEFBD427DED3FD00423939 /* LaunchScreen.storyboard */; };
-		51AEFBDF27DED62600423939 /* splash_img.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51AEFBDE27DED62600423939 /* splash_img.jpg */; };
 		5C9617DFE95C027D5FA45598 /* Pods_NamhaeGuide_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6675EBD57837DC2AE02FC60F /* Pods_NamhaeGuide_iOS.framework */; };
 		87A08236286A93B300527D6A /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A08235286A93B300527D6A /* Utilities.swift */; };
+		87A1F4BD287D071900E7B189 /* splash_img.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 87A1F4BC287D071900E7B189 /* splash_img.jpg */; };
 		87B6C101285FF50700A51E92 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B6C100285FF50700A51E92 /* BaseViewController.swift */; };
 		87B6C1042860090600A51E92 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B6C1032860090600A51E92 /* SplashViewController.swift */; };
 /* End PBXBuildFile section */
@@ -41,11 +41,11 @@
 		51AEFBD227DED3FD00423939 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51AEFBD527DED3FD00423939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51AEFBD727DED3FD00423939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		51AEFBDE27DED62600423939 /* splash_img.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = splash_img.jpg; sourceTree = "<group>"; };
 		6675EBD57837DC2AE02FC60F /* Pods_NamhaeGuide_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NamhaeGuide_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		701ED99C46B80B2457EADCE6 /* Pods-NamhaeGuide_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NamhaeGuide_iOS.release.xcconfig"; path = "Target Support Files/Pods-NamhaeGuide_iOS/Pods-NamhaeGuide_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		76D7383D080C25191DC29EB4 /* Pods-NamhaeGuide_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NamhaeGuide_iOS.debug.xcconfig"; path = "Target Support Files/Pods-NamhaeGuide_iOS/Pods-NamhaeGuide_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		87A08235286A93B300527D6A /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		87A1F4BC287D071900E7B189 /* splash_img.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = splash_img.jpg; sourceTree = "<group>"; };
 		87B6C100285FF50700A51E92 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		87B6C1032860090600A51E92 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,7 +117,7 @@
 		51AEFBDD27DED61300423939 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				51AEFBDE27DED62600423939 /* splash_img.jpg */,
+				87A1F4BC287D071900E7B189 /* splash_img.jpg */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -237,7 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51AEFBDF27DED62600423939 /* splash_img.jpg in Resources */,
+				87A1F4BD287D071900E7B189 /* splash_img.jpg in Resources */,
 				51AEFBD627DED3FD00423939 /* LaunchScreen.storyboard in Resources */,
 				519C5E8727EB1A3600E2CDC4 /* PublicOffices.storyboard in Resources */,
 				519C5E8327EB11A900E2CDC4 /* PublicOfficesCell.xib in Resources */,
@@ -381,7 +381,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -436,7 +436,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
